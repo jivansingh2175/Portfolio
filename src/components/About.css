@@ -1,0 +1,56 @@
+.about-section {
+  padding: 5rem 2rem;
+  background-color: #ffffff; /* clean white section */
+  color: #2c3e50;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.about-text {
+  flex: 1;
+  font-size: 1.15rem;
+  line-height: 1.8;
+  color: #444; /* softer text */
+}
+
+.about-text h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #0077b6; /* professional blue accent */
+  font-weight: 700;
+}
+
+.about-text p {
+  margin-bottom: 1rem;
+  color: #555;
+}
+
+.about-image {
+  flex: 0 0 260px;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-pic {
+  width: 320px;   /* larger profile image */
+  height: 320px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 8px solid #f7fafc; /* subtle clean border */
+  box-shadow: 0 14px 36px rgba(0, 0, 0, 0.22);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.profile-pic:hover {
+  transform: scale(1.07);
+  box-shadow: 0 18px 42px rgba(0, 0, 0, 0.3);
+}
