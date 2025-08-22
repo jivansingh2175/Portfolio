@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/jivansingh2175/Portfolio/static/css/main.c1526927.css",
+    "main.js": "/jivansingh2175/Portfolio/static/js/main.0aa57136.js",
+    "static/media/image111.jpg": "/jivansingh2175/Portfolio/static/media/image111.d18e06913211a1d4e3e7.jpg",
+    "index.html": "/jivansingh2175/Portfolio/index.html",
+    "main.c1526927.css.map": "/jivansingh2175/Portfolio/static/css/main.c1526927.css.map",
+    "main.0aa57136.js.map": "/jivansingh2175/Portfolio/static/js/main.0aa57136.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c1526927.css",
+    "static/js/main.0aa57136.js"
+  ]
+}
