@@ -40,12 +40,10 @@
 // };
 
 // export default Header;
-
-
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
-import './Header.css';  // Import CSS for styling
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'; 
+import './Header.css'; // Your existing CSS
 
 const Header = () => {
   return (
@@ -54,7 +52,9 @@ const Header = () => {
 
         {/* Intro Section */}
         <div className="header-text">
-          <h1 className="name">Hi, I'm <span className="highlight">Jivansing Navalsing Ingle</span></h1>
+          <h1 className="name">
+            Hi, I'm <span className="highlight">Jivansing Navalsing Ingle</span>
+          </h1>
           <h2 className="title">MCA Graduate • Aspiring Software Engineer</h2>
           <p className="description">
             I am a passionate <strong>MCA graduate</strong> with hands-on experience in 
@@ -84,6 +84,7 @@ const Header = () => {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn Profile"
+            style={{ color: '#0077b6' }} // Ensures always visible
           >
             <FontAwesomeIcon icon={faLinkedin} size="2x" />
           </a>
@@ -93,6 +94,7 @@ const Header = () => {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub Profile"
+            style={{ color: '#333' }} // Dark color for visibility
           >
             <FontAwesomeIcon icon={faGithub} size="2x" />
           </a>
